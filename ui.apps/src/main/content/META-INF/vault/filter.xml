@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/eventsmap/clientlibs"/>
+    <filter root="/apps/eventsmap/components"/>
+    <filter root="/apps/eventsmap/i18n"/>
+</workspaceFilter>
