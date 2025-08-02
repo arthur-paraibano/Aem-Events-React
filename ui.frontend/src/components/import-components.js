@@ -15,11 +15,12 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 import withAsyncImport from "../utils/withAsyncImport";
 
-import './Page/Page';
 import './Container/Container';
+import './Event/Event';
 import './ExperienceFragment/ExperienceFragment';
+import './Page/Page';
 
-import {MapTo} from '@adobe/aem-react-editable-components';
+import { MapTo } from '@adobe/aem-react-editable-components';
 
 import {
     CarouselV1IsEmptyFn
@@ -30,21 +31,21 @@ import {
 } from '@adobe/aem-core-components-react-base/dist/isEmptyFunctions';
 
 import {
+    AccordionV1, AccordionV1IsEmptyFn,
     ContainerV1, ContainerV1IsEmptyFn,
     TabsV1, TabsV1IsEmptyFn,
-    AccordionV1,AccordionV1IsEmptyFn,
 } from '@adobe/aem-core-components-react-spa';
 
 import {
-    BreadCrumbV2,BreadCrumbV2IsEmptyFn,
-    ButtonV1,ButtonV1IsEmptyFn,
-    ImageV2,ImageV2IsEmptyFn,
+    BreadCrumbV2, BreadCrumbV2IsEmptyFn,
+    ButtonV1, ButtonV1IsEmptyFn,
+    DownloadV1, DownloadV1IsEmptyFn,
+    ImageV2, ImageV2IsEmptyFn,
     LanguageNavigationV1,
+    ListV2, ListV2IsEmptyFn,
     NavigationV1,
-    TeaserV1,TeaserV1IsEmptyFn,
-    DownloadV1,DownloadV1IsEmptyFn,
-    SeparatorV1,SeparatorV1IsEmptyFn,
-    ListV2,ListV2IsEmptyFn
+    SeparatorV1, SeparatorV1IsEmptyFn,
+    TeaserV1, TeaserV1IsEmptyFn
 } from '@adobe/aem-core-components-react-base';
 
 //lazyload / code splitting example of an internal component
